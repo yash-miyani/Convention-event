@@ -1,0 +1,175 @@
+/* ============================ MIN 1299PX =============================== */
+
+@media (max-width: 1299px) {
+  html {
+    font-size: 62.5%;
+  }
+  .hedaer h1 {
+    font-size: 10rem;
+    width: 90%;
+  }
+  .header-span span {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .mx-20 {
+    margin: 0 15rem;
+  }
+  .about-contain h2 {
+    font-size: 4.5rem;
+  }
+  .about-contain {
+    margin: 8rem 2rem;
+  }
+  .about-box {
+    width: 70%;
+  }
+}
+
+/* ============================ MIN 1199PX =============================== */
+
+@media (max-width: 1199px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .mx-20 {
+    margin: 0 10rem;
+  }
+
+  .about-contain h2 {
+    font-size: 4.2rem;
+  }
+  .about-contain {
+    margin: 8rem 2rem;
+  }
+  .about-box {
+    width: 70%;
+  }
+}
+
+/* ============================ MAX 992PX =============================== */
+
+@media (max-width: 992px) {
+  html {
+    font-size: 56.25%;
+  }
+  .hedaer h1 {
+    font-size: 10rem;
+    width: 90%;
+  }
+  .mx-20 {
+    margin: 0 10rem;
+  }
+  .about-contain {
+    margin: 8rem 2rem;
+  }
+  .about-contain h2 {
+    font-size: 4rem;
+  }
+}
+/* ============================ MAX 768PX =============================== */
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .hedaer h1 {
+    font-size: 9rem;
+    width: 90%;
+  }
+  .mx-20 {
+    margin: 0 5rem;
+  }
+  .about-contain {
+    margin: 5rem 3rem;
+  }
+  .about-box {
+    bottom: -8rem;
+    left: 3rem;
+  }
+  .about-bg {
+    margin: 2rem 0 0;
+  }
+  .about-box {
+    width: 90%;
+    position: static;
+    margin: 3rem;
+  }
+  .blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .input-bg {
+    height: 50rem;
+  }
+  .input-box {
+    display: block;
+    width: 80%;
+  }
+  .input-box input {
+    margin: 1rem 0;
+  }
+  .input-box [type="button"] {
+    margin-top: 2rem;
+  }
+  .contact-box {
+    margin: 0;
+    height: 430px;
+  }
+  .contact-form {
+    height: 430px;
+    margin-top: 5rem;
+  }
+}
+
+/* ============================ MAX 576PX =============================== */
+
+@media (max-width: 576px) {
+  html {
+    font-size: 43.75%;
+  }
+  .home-bg {
+    height: 80vh;
+  }
+  .hedaer {
+    height: 70vh;
+  }
+  .hedaer h1 {
+    font-size: 7rem;
+    width: 90%;
+  }
+  .header-span span {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .mx-20 {
+    margin: 0 0rem;
+  }
+  .counter {
+    margin: 0;
+  }
+  .bg-counter {
+    height: 55rem;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 376px) {
+  .hedaer h1 {
+    font-size: 6rem;
+    width: 90%;
+  }
+  .time {
+    display: none;
+  }
+  .container {
+    padding: 7rem 2rem;
+  }
+}

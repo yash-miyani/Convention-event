@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convention-event > Home Page</title>
+    <!-- mobilenavbar js link  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <!-- mobilenavbar js link  -->
+
+    <!-- Aos link  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Aos link  -->
+
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <!-- favicon link  -->
+
+    <!-- bootstrap icon link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- bootstrap icon link  -->
+
+    <!-- slick slider link  -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <!-- slick slider link  -->
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/quarry.css" />
+    <link rel="stylesheet" href="css/other.css" />
+    <!-- css link  -->
+  </head>
+  <body>
+    <!-- Navbar section start  -->
+    <section class="home-bg">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#index.html">Convention</a>
+        </div>
+        <div class="main-nav">
+          <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="Speaker.html">Speakers</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </nav>
+
+      <header class="hedaer s2" data-aos="fade-up">
+        <h2>HURRY UP! DON'T WASTE TIME</h2>
+        <h1>BIGGEST <span>DEVELOPER CONFERENCE </span> 2023</h1>
+        <div class="header-span">
+          <span>
+            <i class="bi bi-geo-alt"></i> SAN FRANCISCO, CALIFORNIA, USA
+          </span>
+          <span> <i class="bi bi-calendar3"></i> APRIL 24 TO 27, 2020 </span>
+        </div>
+        <div class="row header-div">
+          <div class="time" style="padding: 2rem">
+            <h3 id="days"></h3>
+            <p>Days</p>
+          </div>
+
+          <div class="time" style="padding: 2rem">
+            <h3 id="hours"></h3>
+            <p>Hours</p>
+          </div>
+
+          <div class="time" style="padding: 2rem">
+            <h3 id="munites"></h3>
+            <p>Minutes</p>
+          </div>
+
+          <div class="time" style="padding: 2rem">
+            <h3 id="seconds"></h3>
+            <p>Seconds</p>
+          </div>
+        </div>
+      </header>
+    </section>
+    <!-- Navbar section end  -->
+
+    <!-- about section start  -->
+    <section class="row mx-20">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <div style="margin: 0 2rem">
+          <div class="about-bg"></div>
+        </div>
+      </div>
+      <div
+        class="col-lg-6 col-md-6 col-sm-12 col-12"
+        style="position: relative"
+      >
+        <div class="about-contain" data-aos="fade-up">
+          <h3>WELCOME TO CONVENTION</h3>
+          <h2>BIGGEST DEVELOPER CONFERENCE 2023</h2>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean. A small river named Duden flows by their place and
+            supplies it with the necessary regelialia.
+          </p>
+        </div>
+        <div class="about-box" data-aos="fade-up">
+          <i class="bi bi-calendar3"></i>
+          <div>
+            <h2>20</h2>
+            <h3>
+              YEAR OF <br />
+              EXPERIENCED
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end  -->
+
+    <!-- counter section start  -->
+    <section class="bg-counter">
+      <div class="container">
+        <div class="row counter">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-12" data-aos="fade-up">
+            <div style="margin: 2rem">
+              <div class="counter-box">
+                <div style="align-self: center">
+                  <i class="bi bi-pin-map-fill"></i>
+                </div>
+                <div>
+                  <h2 data-target="301" class="counter-inr"></h2>
+                  <p>places</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-3 col-12" data-aos="fade-up">
+            <div style="margin: 2rem">
+              <div class="counter-box">
+                <div style="align-self: center">
+                  <i class="bi bi-calendar3"></i>
+                </div>
+                <div>
+                  <h2 data-target="102" class="counter-inr"></h2>
+                  <p>events</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-3 col-12" data-aos="fade-up">
+            <div style="margin: 2rem">
+              <div class="counter-box">
+                <div style="align-self: center">
+                  <i class="bi bi-camera2"></i>
+                </div>
+                <div>
+                  <h2 data-target="1050" class="counter-inr"></h2>
+                  <p>photos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-3 col-12" data-aos="fade-up">
+            <div style="margin: 2rem">
+              <div class="counter-box">
+                <div style="align-self: center">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <div>
+                  <h2 data-target="61" class="counter-inr"></h2>
+                  <p>speakers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- counter section end  -->
+
+    <!-- Event secdule section start  -->
+    <section style="background-color: #f4f5f9">
+      <div class="container">
+        <div class="header-sec" data-aos="fade-up">
+          <h3>SCHEDULE</h3>
+          <h2>EVENT SCHEDULE</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-12" data-aos="fade-up">
+            <div class="event-mainBox first-box">
+              <h2>day 01</h2>
+              <h3>24 apr,2023</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-12" data-aos="fade-up">
+            <div class="event-mainBox">
+              <h2>day 02</h2>
+              <h3>25 apr,2023</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-12" data-aos="fade-up">
+            <div class="event-mainBox">
+              <h2>day 03</h2>
+              <h3>26 apr,2023</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-12" data-aos="fade-up">
+            <div class="event-mainBox">
+              <h2>day 04</h2>
+              <h3>27 apr,2023</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-box">
+          <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-3 col-4" data-aos="fade-up">
+              <div class="event-img">
+                <img src="img/person_1.jpg.webp" alt="" class="w-100" />
+              </div>
+            </div>
+            <div class="col-lg-10 col-md-9 col-sm-9 col-12" data-aos="fade-up">
+              <div class="event-contentBox">
+                <h4>08: - 10:00</h4>
+                <h2>HOW TO IMPROVE THE WORDPRESS CODING</h2>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia. It is a paradisematic country,
+                  in which roasted parts of sentences fly into your mouth.
+                </p>
+                <h3>HENRY TYLER</h3>
+                <span>FOUNDER OF WORDPRESS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-box">
+          <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-3 col-4" data-aos="fade-up">
+              <div class="event-img">
+                <img src="img/person_2.jpg.webp" alt="" class="w-100" />
+              </div>
+            </div>
+            <div class="col-lg-10 col-md-9 col-sm-9 col-12" data-aos="fade-up">
+              <div class="event-contentBox">
+                <h4>08: - 10:00</h4>
+                <h2>WEB PERFORMANCE FOR THIRD PARTY SCRIPTS</h2>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia. It is a paradisematic country,
+                  in which roasted parts of sentences fly into your mouth.
+                </p>
+                <h3>HENRY TYLER</h3>
+                <span>FOUNDER OF WORDPRESS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-box">
+          <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-3 col-4" data-aos="fade-up">
+              <div class="event-img">
+                <img src="img/person_3.jpg.webp" alt="" class="w-100" />
+              </div>
+            </div>
+            <div class="col-lg-10 col-md-9 col-sm-9 col-12" data-aos="fade-up">
+              <div class="event-contentBox">
+                <h4>08: - 10:00</h4>
+                <h2>WHAT ARE THE NEEDS FOR GREAT STARTUP</h2>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia. It is a paradisematic country,
+                  in which roasted parts of sentences fly into your mouth.
+                </p>
+                <h3>HENRY TYLER</h3>
+                <span>FOUNDER OF WORDPRESS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Event secdule section end  -->
+
+    <!-- Event speaker section start  -->
+    <section>
+      <div class="spekerSec-bgcolor">
+        <div class="header-sec" data-aos="fade-up">
+          <h3>MEET OUR SPEAKER</h3>
+          <h2 style="color: #fff">OUR EVENT SPEAKERS</h2>
+        </div>
+      </div>
+      <div class="speakerSec-div">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6" data-aos="fade-up">
+          <div class="staf">
+            <div class="img-wrap">
+              <img src="img/staff-1.jpg.webp" alt="" class="w-100" />
+              <div class="speker-bgdiv">
+                <h2>LLOYD WILSON</h2>
+                <span>WEB DEVELOPER</span>
+                <div>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-google"></i>
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6" data-aos="fade-up">
+          <div class="staf">
+            <div class="img-wrap">
+              <img src="img/staff-2.jpg.webp" alt="" class="w-100" />
+              <div class="speker-bgdiv">
+                <h2>LLOYD WILSON</h2>
+                <span>WEB Designer</span>
+                <div>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-google"></i>
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6" data-aos="fade-up">
+          <div class="staf">
+            <div class="img-wrap">
+              <img src="img/staff-3.jpg.webp" alt="" class="w-100" />
+              <div class="speker-bgdiv">
+                <h2>LIAM NEIL</h2>
+                <span>GRAPHIC DESIGNER</span>
+                <div>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-google"></i>
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6" data-aos="fade-up">
+          <div class="staf">
+            <div class="img-wrap">
+              <img src="img/staff-4.jpg.webp" alt="" class="w-100" />
+              <div class="speker-bgdiv">
+                <h2>JOHN HAYES</h2>
+                <span>MARKETING</span>
+                <div>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-google"></i>
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6" data-aos="fade-up">
+          <div class="staf">
+            <div class="img-wrap">
+              <img src="img/staff-5.jpg.webp" alt="" class="w-100" />
+              <div class="speker-bgdiv">
+                <h2>LLOYD WILSON</h2>
+                <span>WEB DEVELOPER</span>
+                <div>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-google"></i>
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Event speaker section end  -->
+
+    <!-- Gallery section start  -->
+    <section>
+      <div class="header-sec" data-aos="fade-up">
+        <h3>GALLERY</h3>
+        <h2>PHOTOS OF OUR EVENTS</h2>
+      </div>
+
+      <div class="row gallery" style="margin: 0 1rem">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-9" data-aos="fade-up">
+          <div class="gallery-img">
+            <i class="bi bi-search-heart-fill"></i>
+            <img src="img/gallery-1.jpg.webp" alt="" class="w-100" />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-9" data-aos="fade-up">
+          <div class="gallery-img">
+            <i class="bi bi-search-heart-fill"></i>
+            <img src="img/gallery-2.jpg.webp" alt="" class="w-100" />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-9" data-aos="fade-up">
+          <div class="gallery-img">
+            <i class="bi bi-search-heart-fill"></i>
+            <img src="img/gallery-3.jpg.webp" alt="" class="w-100" />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-9" data-aos="fade-up">
+          <div class="gallery-img">
+            <i class="bi bi-search-heart-fill"></i>
+            <img src="img/gallery-4.jpg.webp" alt="" class="w-100" />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-9" data-aos="fade-up">
+          <div class="gallery-img">
+            <i class="bi bi-search-heart-fill"></i>
+            <img src="img/gallery-5.jpg.webp" alt="" class="w-100" />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-9" data-aos="fade-up">
+          <div class="gallery-img">
+            <i class="bi bi-search-heart-fill"></i>
+            <img src="img/gallery-6.jpg.webp" alt="" class="w-100" />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-9" data-aos="fade-up">
+          <div class="gallery-img">
+            <i class="bi bi-search-heart-fill"></i>
+            <img src="img/gallery-7.jpg.webp" alt="" class="w-100" />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-9" data-aos="fade-up">
+          <div class="gallery-img">
+            <i class="bi bi-search-heart-fill"></i>
+            <img src="img/gallery-8.jpg.webp" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery section end  -->
+
+    <!-- Testimonial section start  -->
+    <section style="background-color: #f4f5f9">
+      <div class="container">
+        <div class="header-sec" data-aos="fade-up">
+          <h3>TESTIMONIAL</h3>
+          <h2>
+            PEOPLE SAY <br />
+            ABOUT OUR CONFERENCE
+          </h2>
+        </div>
+
+        <div id="slide-box" data-aos="fade-up">
+          <div class="sliderbox">
+            <i class="bi bi-quote"></i>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <div class="box-content">
+              <div>
+                <img src="img/person_1.jpg.webp" alt="" class="w-100" />
+              </div>
+              <div style="align-self: center">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <h3>Naresh raval</h3>
+                <span>Founder & CEO </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sliderbox">
+            <i class="bi bi-quote"></i>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <div class="box-content">
+              <div>
+                <img src="img/person_2.jpg.webp" alt="" class="w-100" />
+              </div>
+              <div style="align-self: center">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <h3>Roger Scott</h3>
+                <span>Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sliderbox">
+            <i class="bi bi-quote"></i>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <div class="box-content">
+              <div>
+                <img src="img/person_3.jpg.webp" alt="" class="w-100" />
+              </div>
+              <div style="align-self: center">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <h3>LLOYD WILSON</h3>
+                <span>WEB DEVELOPER </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sliderbox">
+            <i class="bi bi-quote"></i>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <div class="box-content">
+              <div>
+                <img src="img/person_1.jpg.webp" alt="" class="w-100" />
+              </div>
+              <div style="align-self: center">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <h3>LIAM NEIL</h3>
+                <span>WEB DESIGNER </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sliderbox">
+            <i class="bi bi-quote"></i>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <div class="box-content">
+              <div>
+                <img src="img/person_2.jpg.webp" alt="" class="w-100" />
+              </div>
+              <div style="align-self: center">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <h3>ALEN BROKE</h3>
+                <span>SYSTEM ANALYTIC</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sliderbox">
+            <i class="bi bi-quote"></i>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <div class="box-content">
+              <div>
+                <img src="img/person_3.jpg.webp" alt="" class="w-100" />
+              </div>
+              <div style="align-self: center">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <h3>JOHN HAYES</h3>
+                <span>MARKETING</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial section end  -->
+
+    <!-- blog section start  -->
+    <section class="container">
+      <div class="header-sec" data-aos="fade-up">
+        <h3>OUR BLOG</h3>
+        <h2>RECENT POST</h2>
+      </div>
+
+      <div class="row blog" style="margin-top: 4rem">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12" data-aos="fade-up">
+          <div style="margin: 2rem">
+            <div>
+              <img
+                src="img/image_1.jpg.webp"
+                alt=""
+                class="w-100"
+                height="250px"
+              />
+            </div>
+            <div class="blog-divSpan">
+              <i class="bi bi-calendar3"></i>
+              <span>oct,04,2022</span>
+              <i class="bi bi-person-fill"></i>
+              <span>admin</span>
+              <i class="bi bi-chat-dots"></i>
+              <span>3</span>
+            </div>
+            <div class="blog-div-content">
+              <h3>MARKETING STRATEGIES FOR DIGITAL ECOSYSTEM</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia...
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12" data-aos="fade-up">
+          <div style="margin: 2rem">
+            <div>
+              <img
+                src="img/image_2.jpg.webp"
+                alt=""
+                class="w-100"
+                height="250px"
+              />
+            </div>
+            <div class="blog-divSpan">
+              <i class="bi bi-calendar3"></i>
+              <span>oct,04,2022</span>
+              <i class="bi bi-person-fill"></i>
+              <span>admin</span>
+              <i class="bi bi-chat-dots"></i>
+              <span>3</span>
+            </div>
+            <div class="blog-div-content">
+              <h3>MARKETING STRATEGIES FOR DIGITAL ECOSYSTEM</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia...
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12" data-aos="fade-up">
+          <div style="margin: 2rem">
+            <div>
+              <img
+                src="img/image_3.jpg.webp"
+                alt=""
+                class="w-100"
+                height="250px"
+              />
+            </div>
+            <div class="blog-divSpan">
+              <i class="bi bi-calendar3"></i>
+              <span>oct,04,2022</span>
+              <i class="bi bi-person-fill"></i>
+              <span>admin</span>
+              <i class="bi bi-chat-dots"></i>
+              <span>3</span>
+            </div>
+            <div class="blog-div-content">
+              <h3>MARKETING STRATEGIES FOR DIGITAL ECOSYSTEM</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section end  -->
+
+    <!-- input section start  -->
+    <section class="input-bg">
+      <div data-aos="fade-up">
+        <h2>BOOK YOUR TICKETS NOW</h2>
+      </div>
+      <div class="input-box" data-aos="fade-up">
+        <div class="main">
+          <input type="text" name="fmane" id="fname" placeholder="First Name" />
+        </div>
+        <div class="main">
+          <input type="text" name="lmane" id="lname" placeholder="Last Name" />
+        </div>
+        <div class="main">
+          <input type="tel" name="phone" id="phone" placeholder="Phone" />
+        </div>
+        <div class="main">
+          <select name="money">
+            <option value="select" selected>Select Your Price</option>
+            <option value="10">$10</option>
+            <option value="20">$20</option>
+            <option value="30">$30</option>
+            <option value="40">$40</option>
+            <option value="50">$50</option>
+          </select>
+        </div>
+        <div class="main">
+          <input type="submit" value="REGISTER NOW" />
+        </div>
+      </div>
+    </section>
+    <!-- input section end  -->
+
+    <!-- footer section start  -->
+    <section style="background-color: #232429">
+      <div class="container">
+        <div class="row footer">
+          <div class="col-lg-2 col-md-2 col-sm-6 col-12">
+            <div style="margin-top: 2rem">
+              <h2>CONVENTION</h2>
+              <h3>
+                Far far away, behind the word mountains, far from the countries.
+              </h3>
+              <div class="footer-icon" data-aos="fade-up">
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-google"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-6 col-12">
+            <div style="margin-top: 2rem">
+              <h2>EXPLORE</h2>
+              <p><i class="bi bi-chevron-right"></i> About</p>
+              <p><i class="bi bi-chevron-right"></i> Content</p>
+              <p><i class="bi bi-chevron-right"></i> Speaker</p>
+              <p><i class="bi bi-chevron-right"></i> Blog</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-6 col-12">
+            <div style="margin-top: 2rem">
+              <h2>EXPLORE</h2>
+              <p><i class="bi bi-chevron-right"></i> Join us</p>
+              <p><i class="bi bi-chevron-right"></i> Buy Ticket</p>
+              <p><i class="bi bi-chevron-right"></i> Privacy & Popcy</p>
+              <p><i class="bi bi-chevron-right"></i> Term & Conditions</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-6 col-12">
+            <div style="margin-top: 2rem">
+              <h2>GET YOUR SEAT</h2>
+              <h3>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </h3>
+              <button>BUY TICKET</button>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-12 col-12 footer-address">
+            <div style="margin-top: 2rem">
+              <h2>HAVE A QUESTIONS?</h2>
+              <div style="display: flex; margin-bottom: 2rem">
+                <i class="bi bi-map-fill"></i>
+                <span>
+                  203 Fake St. Mountain View, San Francisco, California, USA
+                </span>
+              </div>
+              <div style="display: flex; margin-bottom: 2rem">
+                <i class="bi bi-telephone-fill"></i>
+                <span>+2 392 3929 210</span>
+              </div>
+              <div style="display: flex; margin-bottom: 2rem">
+                <i class="bi bi-telegram"></i>
+                <span>info@yourdomain.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- subfooter section start  -->
+    <section class="sub-footer">
+      <h2>
+        Copyright © 2023 All rights reserved | This template is made with
+        <i class="bi bi-heart-fill"></i> by Colorlib
+      </h2>
+    </section>
+    <!-- subfooter section start  -->
+
+    <!-- footer section end  -->
+
+    <!-- js link  -->
+    <script src="js/main.js"></script>
+    <!-- js link  -->
+
+    <!-- Aos js link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1000,
+      });
+    </script>
+    <!-- Aos js link  -->
+  </body>
+</html>
